@@ -8,15 +8,16 @@ namespace ConsoleApp1
         {
 
             Console.WriteLine("Basit Hesap Makineme Hoş Geldniz!");
+            Console.WriteLine(" ");
             string islem;
            
             Math math = new Math();
 
-            int sayi1, sayi2;
+            double sayi1, sayi2;
             Console.WriteLine("İşlem yapmak istediğiniz ilk sayıyı giriniz: ");
-            sayi1 = Convert.ToInt32(Console.ReadLine());
+            sayi1 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("İşlem yapmak istediğiniz ikinci sayıyı giriniz: ");
-            sayi2 = Convert.ToInt32(Console.ReadLine());
+            sayi2 = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Yapmak istediğinzi işlemi seçiniz (*, /, +, -)");
             islem = Console.ReadLine();

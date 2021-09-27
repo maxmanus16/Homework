@@ -6,24 +6,24 @@ namespace ConsoleApp1
 {
     class Math
     {
-        public void Toplama(int sayi1, int sayi2)
+        public void Toplama(double sayi1, double sayi2)
         {
-            int Ans = sayi1 + sayi2;
+            double Ans = sayi1 + sayi2;
             Console.WriteLine("Cevap: " + Ans);
         }
-        public void Cikartma(int sayi1, int sayi2)
+        public void Cikartma(double sayi1, double sayi2)
         {
-            int Ans = sayi1 - sayi2;
+            double Ans = sayi1 - sayi2;
             Console.WriteLine("Cevap: " + Ans);
         }
-        public void Bolme(int sayi1, int sayi2)
+        public void Bolme(double sayi1, double sayi2)
         {
-            int Ans = sayi1 / sayi2;
+            double Ans = sayi1 / sayi2;
             Console.WriteLine("Cevap: " + Ans);
         }
-        public void Carpma(int sayi1, int sayi2)
+        public void Carpma(double sayi1, double sayi2)
         {
-            int Ans = sayi1 * sayi2;
+            double Ans = sayi1 * sayi2;
             Console.WriteLine("Cevap: " + Ans);
         }
     }
