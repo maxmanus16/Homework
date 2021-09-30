@@ -39,6 +39,10 @@ namespace ConsoleApp1
             {
                 math.Cikartma(sayi1, sayi2);
             }
+            else
+            {
+                Console.WriteLine("Yapmak istediğiniz işlem geçersiz bir işlemdir.");
+            }
         }
     }
 }
